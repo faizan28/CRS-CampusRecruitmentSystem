@@ -15,9 +15,14 @@ export class StudentLoginComponent implements OnInit {
     //get all students data
     _StudentService.getStudents();
   }
-
+  registerMode = false;
   ngOnInit() {}
-
+  registerModeon(){
+    this.registerMode = true;
+  }
+  registerModeoff(){
+    this.registerMode = false;
+  }
   SignIn() {
       this._StudentService.studentLogin(this.student.email,this.student.password)
   }

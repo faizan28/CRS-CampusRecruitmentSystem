@@ -20,7 +20,7 @@
           </tr>
         </tbody>
   </table>
-  <button type="submit" class="btn btn-success btn-block" (click)="updateMode = true" >Update Profile</button>
+  <button type="submit" class="btn btn-primary" (click)="updateMode = true" >Update Profile</button>
 </div>
 
 <div class="stu-edit-profile"  *ngIf="updateMode">
@@ -55,7 +55,8 @@
   </div>
   </fieldset>
 
-  <button type="submit" class="btn btn-success btn-block" [disabled]="!updateForm.form.valid">Update Profile</button><br>
+  <button type="submit" class="btn btn-success" [disabled]="!updateForm.form.valid">Update Profile</button>
+  <button type="submit" class="btn btn-danger" (click)="updateMode = false" >Cancel</button>
 </form>
-  <button type="submit" class="btn btn-success btn-block" (click)="updateMode = false" >Cancel</button>
+
 </div>

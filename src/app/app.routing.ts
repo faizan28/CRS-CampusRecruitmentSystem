@@ -7,7 +7,6 @@ import { StudentDashboardComponent } from './student-dashboard/student-dashboard
 import { CompanyLoginComponent } from './company-login/company-login.component'
 import { CompanyDashboardComponent } from './company-dashboard/company-dashboard.component'
 import { AboutProjectComponent } from './about-project/about-project.component'
-import { AboutMeComponent } from './about-me/about-me.component'
 import { CommentsComponent } from './comments/comments.component'
 
 const appRoutes: Routes = [
@@ -20,7 +19,6 @@ const appRoutes: Routes = [
     { path: 'company-login', component: CompanyLoginComponent },
     { path: 'company-dashboard', component: CompanyDashboardComponent },
     { path: 'about-project', component: AboutProjectComponent },
-    { path: 'about-me', component: AboutMeComponent },
     { path: 'comments', component: CommentsComponent },
     {path:'**', component: HomeComponent}
 ];

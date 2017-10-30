@@ -24,7 +24,6 @@ import { StudentProfileComponent } from './student-profile/student-profile.compo
 import { StudentListComponent } from './student-list/student-list.component';
 import { CompanyProfileComponent } from './company-profile/company-profile.component';
 import { AboutProjectComponent } from './about-project/about-project.component';
-import { AboutMeComponent } from './about-me/about-me.component';
 import { CommentsComponent } from './comments/comments.component';
 import { NavComponent } from './nav/nav.component';
 
@@ -52,7 +51,6 @@ export const firebaseConfig = {
     StudentListComponent,
     CompanyProfileComponent,
     AboutProjectComponent,
-    AboutMeComponent,
     CommentsComponent,
     NavComponent,
   ],
